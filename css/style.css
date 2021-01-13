@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #F6F8F9;
+}
+
+/*header*/
+
+header {
+  height: 80px;
+  background-color: white;
+  padding: 20px;
+}
+
+header h1 {
+  display: inline;
+  font-size: 30px;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+
+header img {
+  vertical-align: middle;
+  margin-right: 15px;
+
+}
+/*/header*/
+
+/* main */
+
+main {
+  width:1000px;
+  height: 1000px;
+  background-color: white;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+.actions {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #F6F8F9;
+  padding: 10px 50px;
+}
+
+.button {
+  padding: 6px;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+}
+
+.blue {
+  margin-right: 5px;
+  background-color:#4BAFF1;
+  color: white;
+
+}
+
+.white {
+  background-color: white;
+  color: grey;
+}
+
+/* corpo della todolist */
+
+.tasks {
+  margin:50px 40px;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  margin-left: 30px;
+  margin-top: 5px;
+  padding-top: 20px;
+}
+
+.check-circle {
+  border: 1px solid grey;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 100%;
+  padding: 4px 6px;
+  margin-right: 5px;
+  color: grey;
+
+}
+
+.wrong {
+  border: 1px solid red;
+}
+
+.box {
+  border: 1px solid #F6F8F9;
+  border-radius: 20px;
+  color: white;
+  padding: 8px;
+  font-size: 12px;
+}
+
+.skyblue {
+  background-color: #4BAFF1;
+}
+
+
+.nightblue {
+  background-color:#9C72E4;
+}
+
+.green {
+  background-color: #64C0A9;
+}
+.orange {
+  background-color:  #F29F35;
+}
+
+.pruple{
+  background-color: #D863A1;
+}
+
+.yellow{
+  background-color: #B0C926;
+}
+/* /corpo della todolist */
+
+/* /main */
